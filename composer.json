@@ -1,0 +1,24 @@
+{
+    "name": "jigius/step",
+    "description": "Simple Stream Text Processor",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jigius",
+            "email": "jigius@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    },
+    "autoload": {
+        "psr-4": {"Jigius\\Step\\": "src/"}
+    },
+    "autoload-dev": {
+        "psr-4": {"Jigius\\Step\\Tests\\": "tests/"}
+    }
+}
