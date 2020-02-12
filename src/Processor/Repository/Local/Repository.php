@@ -16,7 +16,7 @@ use Jigius\Step\Processor\Repository\EntityInterface;
 use Jigius\Step\Processor\Repository\EntityPrinterInterface;
 
 /**
- * The purpose of this immutable object is instantinates `Entity`
+ * The purpose of this immutable object is instantiates `Entity`
  * instances thouse are represents files into Local File System
  *
  * @package Jigius\Step\Processors\Repository\Local
@@ -42,7 +42,7 @@ final class Repository implements RepositoryInterface
     private $printer;
 
     /**
-     * Creates immutable object for instantinating `Entity` instances
+     * Creates immutable object for instantiating `Entity` instances
      * thouse are represents files into Local File System
      */
     public function __construct(string $baseFolder, UrnInterface $urn, EntityPrinterInterface $printer)
