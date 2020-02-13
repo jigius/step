@@ -25,7 +25,7 @@ interface ChunkInterface
     public function output(): void;
 
     /**
-     * Checks if instance can be counted one
+     * Checks if instance can being counted
      *
      * @return bool
      */
