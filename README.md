@@ -1,4 +1,4 @@
-# Step - simple Stream TExt Processor
+# Step - Simple sTream tExt Processor
 
 This is the simple library for transforms text chunks printed out into standard output (STDOUT).
 
